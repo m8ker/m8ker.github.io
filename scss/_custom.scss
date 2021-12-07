@@ -1,0 +1,41 @@
+$j-gray: #f1f1f1;
+$j-gray-darker: #e3e3e3;
+
+.gray-bg{
+    background-color: $j-gray;
+    padding: 15px 15px 1px 15px;
+    margin-bottom: 4px;
+}
+
+a{
+    color: rgb(49, 49, 49);
+    text-decoration: underline;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.underline{
+    padding-bottom: 10px;
+    border-bottom: 3px solid $j-gray-darker;
+}
+
+.bottom-marge-20{
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    span.no-bold{
+        font-weight:normal;
+    }
+}
+
+.timespan{
+    font-style:italic;
+}
+
+.title-bg{
+    background-color: #f1f1f1;
+    padding: 5px;
+}
