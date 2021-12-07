@@ -71,7 +71,7 @@ $success: #7952b3;
 // @import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
 @import "bootstrap/scss/utilities";
-// @import "bootstrap/scss/print";
+@import "bootstrap/scss/print";
 
 
 //
@@ -87,4 +87,17 @@ body {
 // Style Bootstrap icons
 .bi {
   fill: currentColor;
+}
+
+/* override styles when printing */
+@media print {
+  .gray-bg{
+      background-color: #f1f1f1;
+      padding: 15px 15px 1px 15px;
+      margin-bottom: 4px;
+  }
+  .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    padding-right: 0;
+    padding-left: 0;
+}
 }
