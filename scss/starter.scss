@@ -81,7 +81,7 @@ $success: #7952b3;
 @import "icon-list";
 @import "custom";
 body {
-  padding: 3rem 1.5rem;
+  padding: 0 1.5rem;
 }
 
 // Style Bootstrap icons
@@ -99,5 +99,23 @@ body {
   .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
     padding-right: 0;
     padding-left: 0;
-}
+  }
+  img{
+    display:none;
+  }
+  p, a, li{
+    font-size: 1.5rem;
+  }
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-size: 1.75rem;
+  }
+  .center{
+    text-align:left;
+  }
+  body{
+    background-color: white;
+  }
+  .print-area{
+    display:none;
+  }
 }
