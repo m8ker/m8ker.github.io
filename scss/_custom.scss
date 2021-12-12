@@ -20,6 +20,9 @@ h2{
 .underline{
     padding-bottom: 10px;
     border-bottom: 3px solid $j-gray-darker;
+    &.black{
+        border-bottom: 3px solid black;
+    }
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
@@ -69,8 +72,22 @@ img{
 
 body{
     background-color: #a3a3a3;
+    padding: 0;
 }
 .main{
     padding: 1.5rem;
     background-color:white;
+    margin-top: 15px;
+}
+
+.container.no-padding{
+    padding:0;
+}
+
+.bg-light {
+    background-color: #dddddd!important;
+}
+
+.navbar h1.h4{
+    margin-bottom: 0;
 }

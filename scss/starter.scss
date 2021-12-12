@@ -52,8 +52,8 @@ $success: #7952b3;
 // @import "bootstrap/scss/button-group";
 // @import "bootstrap/scss/input-group"; // Requires forms
 // @import "bootstrap/scss/custom-forms";
-// @import "bootstrap/scss/nav";
-// @import "bootstrap/scss/navbar"; // Requires nav
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar"; // Requires nav
 // @import "bootstrap/scss/card";
 // @import "bootstrap/scss/breadcrumb";
 // @import "bootstrap/scss/pagination";
@@ -80,9 +80,7 @@ $success: #7952b3;
 
 @import "icon-list";
 @import "custom";
-body {
-  padding: 0 1.5rem;
-}
+
 
 // Style Bootstrap icons
 .bi {
@@ -118,7 +116,7 @@ body {
   body{
     background-color: white;
   }
-  .print-area{
+  .print-area, .no-print{
     display:none;
   }
 }

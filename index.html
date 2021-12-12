@@ -7,12 +7,32 @@
     <title>Justin Haight - Web Developer</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light no-print">
+      <div class="container no-padding">
+        <h1 class="h4">Justin Haight | <span class="h5">Web Developer</span></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" onclick="window.print()">
+                <svg class="bi" width="20" height="20">
+                  <use xlink:href="assets/bootstrap-icons/bootstrap-icons.svg#printer"/>
+                </svg>&nbsp;Print this resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
     <div class="container main">
+      <h2 class="no-print underline black bottom-marge-20">Resume</h2>
       <div class="row">
         <div class="col-md-4 bottom-marge-20">
           <article class="gray-bg">
             <img class="circular--square half-width bottom-marge-10" src="assets/img/016-10-2021-La-Vie-Photo-cp-300.jpg" alt="Justin Haight">
-            <header class="center"><h1 class="h4 no-bottom-marge">Justin Haight</h1></header>
+            <header class="center"><h2 class="h4 no-bottom-marge">Justin Haight</h2></header>
             <p class="center">Web Developer</p>
           </article>
           <article class="gray-bg">
@@ -111,7 +131,7 @@
         <a href="#" onclick="window.print()">
           <svg class="bi" width="20" height="20">
             <use xlink:href="assets/bootstrap-icons/bootstrap-icons.svg#printer"/>
-          </svg>&nbsp;Print this page</a></p>
+          </svg>&nbsp;Print this resume</a></p>
     </div>
     <script src="assets/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
